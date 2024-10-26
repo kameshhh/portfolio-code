@@ -60,3 +60,7 @@
  .logo:hover{
     cursor: default;
  }
+
+ #hamburger-nav{
+    display: none;
+    }
