@@ -29,7 +29,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
 }
 
 h3 {
@@ -467,7 +467,8 @@ footer p {
   text-align: center;
 }
 
-#view-icon {
+#view-icon,#view-icon-1 {
   width: 30px;
   cursor: pointer;
 }
+
