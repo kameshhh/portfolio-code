@@ -42,7 +42,21 @@ viewIcon1.onclick = function () {
     document.body.classList.toggle("dark-theme");
     if (document.body.classList.contains("dark-theme")) {
         viewIcon1.setAttribute("src", "./assets/sun.png");
+        arrow.setAttribute("src", "./assets/arrow-white.png");
+        github.setAttribute("src", "./assets/github-white.png");
+        experience.setAttribute("src", "./assets/experience-white.png");
+        education.setAttribute("src", "./assets/education-white.png");
+        linkedin.setAttribute("src", "./assets/linkedin-white.png");
+        linkedin2.setAttribute("src", "./assets/linkedin-white.png");
+        email.setAttribute("src", "./assets/email-white.png");
     } else {
         viewIcon1.setAttribute("src", "./assets/moon.png");
+        arrow.setAttribute("src", "./assets/arrow.png");
+        github.setAttribute("src", "./assets/github.png");
+        experience.setAttribute("src", "./assets/experience.png");
+        education.setAttribute("src", "./assets/education.png");
+        linkedin.setAttribute("src", "./assets/linkedin.png");
+        linkedin.setAttribute("src", "./assets/linkedin.png");
+        email.setAttribute("src", "./assets/email.png");
     }
 }

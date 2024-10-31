@@ -467,8 +467,8 @@ footer p {
   text-align: center;
 }
 
-#view-icon,#view-icon-1 {
+#view-icon,
+#view-icon-1 {
   width: 30px;
   cursor: pointer;
 }
-
