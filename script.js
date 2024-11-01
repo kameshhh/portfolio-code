@@ -5,6 +5,7 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+// logic for dark mode
 const viewIcons = [document.getElementById("view-icon"), document.getElementById("view-icon-1")];
 const arrow = document.querySelector(".arrow");
 const icons = {
